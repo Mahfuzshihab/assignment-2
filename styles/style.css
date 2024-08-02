@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
 *{
     font-family: "Inter", sans-serif;
     margin: 0%;
@@ -9,10 +12,20 @@ body{
     width: 100%;
     margin: 0 auto;
     
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(15, 15, 15, 0.5) 100%),
+    linear-gradient(0deg, 
+    rgb(17, 17, 17) 0%, 
+    rgba(15, 15, 15, 0) 100%);
+
     background-repeat: no-repeat;
-    height: 500px;
+    height: 100%;
 }
+
+
+
+
+
+                    /* navigation */
 .nav-parent{
     
    
@@ -20,7 +33,7 @@ body{
     justify-content: space-between;
     width:  85%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
     
     
 }
@@ -62,4 +75,123 @@ body{
     font-weight: 400;
    
 }
+
+
+
+
+
+                /* header section */
+header{
+    width:  85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.headtxt{
+    font-size: 4.5rem;
+}
+
+.headtxt span{
+    font-family: "Playwrite CU", cursive;
+    font-weight: 200;
+    font-size: 3.5rem;
+    justify-content: ;
+}
+
+header p { color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+        
+
+
+
+
+                    /* button */
+.btn{
+    margin-top: 50px;
+    
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size:1rem;
+    font-weight: 550;
+}
+.btnpri, .btnsec{
+    border: none;
+    border-radius: 42px;
+    padding: 10px 30px;
+    
+}
+.btnpri{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    
+}
+
+.btnsec{
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+background: transparent;
+
+}
+
+
+
+
+                /* coverimg and card */
+
+.rightcontent img{
+    width: 100%;
+    position: relative;
+}
+.blurcard1{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -130px;
+    
+}
+.blurcard2{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 220px;
+}
+#ring{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+
 
