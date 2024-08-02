@@ -56,9 +56,12 @@ body{
 
     
 }
-.nav-parent ul li{
-
-
+#bars{
+    color: white;
+    cursor: pointer;
+    display: none;
+    
+    
 }
 .nav-parent ul li a{
     text-decoration: none;
@@ -97,7 +100,7 @@ header{
     font-family: "Playwrite CU", cursive;
     font-weight: 200;
     font-size: 3.5rem;
-    justify-content: ;
+    
 }
 
 header p { color: rgba(255, 255, 255, 0.5);
@@ -136,6 +139,7 @@ header p { color: rgba(255, 255, 255, 0.5);
 .btnpri{
     border-radius: 42px;
     background: rgb(230, 83, 60);
+    margin-right: 30px;
     
 }
 
