@@ -20,25 +20,49 @@
     .leftcontent h1,p {
         font-size: 2rem;
     }
-    .btnpri{
-        
-        display: block;
+    .leftcontent{
+        width: 100%;
     }
     
     .btnsec {
          margin-left: 0px;
          margin-top: 20px;
-         
+         margin-bottom: 15px;
     }
 
     .rightcontent {
-        margin-top: 500px;
-        margin-left: -400px;
+        margin-top: 350px;
+        margin-left: -470px;
+    }
+    
+
+    .blurcard1{ margin-left: -100px;
+       
+        width: 50%;
+    }
+    .blurcard2{
+        
+   
+    margin-top: -400px;
+    margin-left: 160px;
     }
 
+    .headtxt span{
+        
+        font-size: 5rem;
+        line-height: 50px;
+       
+        
     }
 
 
+
+
+
+    }
+
+
+    
 
 
 
