@@ -2,7 +2,7 @@
     body{
         width: 100%;
         margin: 0px auto;
-        height: 100%;
+        
     }
 
     .nav-parent ul li {
@@ -15,15 +15,26 @@
     .nav-parent ul{
         border: none;
     }
+
+    
     .leftcontent h1,p {
         font-size: 2rem;
     }
-    .btn{
-        display: flex;
+    .btnpri{
         
-        
+        display: block;
     }
-   
+    
+    .btnsec {
+         margin-left: 0px;
+         margin-top: 20px;
+         
+    }
+
+    .rightcontent {
+        margin-top: 500px;
+        margin-left: -400px;
+    }
 
     }
 
