@@ -1,0 +1,71 @@
+@media screen and (max-width:576px){
+    body{
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+
+    .nav-parent ul li {
+        display: none;
+    }
+    #bars{
+        
+        display: block;
+    }
+    .nav-parent ul{
+        border: none;
+    }
+
+    
+    .leftcontent h1,p {
+        font-size: 2rem;
+    }
+    .leftcontent{
+        width: 100%;
+    }
+    
+    .btnsec {
+         margin-left: 0px;
+         margin-top: 20px;
+         margin-bottom: 15px;
+    }
+
+    .rightcontent {
+        margin-top: 350px;
+        margin-left: -470px;
+    }
+    
+
+    .blurcard1{ margin-left:50px;
+       
+        width: 50%;
+    }
+    .blurcard2{
+        
+   
+    margin-top: -400px;
+    margin-left: 160px;
+    }
+
+    .headtxt span{
+        
+        font-size: 5rem;
+        line-height: 50px;
+       
+        
+    }
+
+
+
+
+
+    }
+
+
+    
+
+
+
+    
+
+   

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(15, 15, 15, 0.5) 100%),
+    linear-gradient(0deg, 
+    rgb(17, 17, 17) 0%, 
+    rgba(15, 15, 15, 0) 100%);
+
+    background-repeat: no-repeat;
+    height: 100%;
+
+    
+}
+
+
+
+
+
+                    /* navigation */
+.nav-parent{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    width:  85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    
+}
+
+.nav-parent h1{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 2rem;
+    
+}
+
+.nav-parent ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    font-weight: 200;
+
+
+    
+}
+#bars{
+    color: white;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+.nav-parent ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav-parent>ul>li:first-child{
+    border-radius: 46px;
+
+    background: rgb(230, 83, 60);
+    padding: 5px ;
+    margin-left: 2px;
+    font-weight: 400;
+   
+}
+
+
+
+
+
+                /* header section */
+header{
+    width:  85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headtxt{
+    font-size: 4.5rem;
+}
+
+.headtxt span{
+    font-family: 'Miama', sans-serif;
+                                             
+    font-weight: 200;
+    font-size: 9rem;
+    line-height: 0.8px;
+   
+    
+}
+
+header p { color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+        
+
+
+
+
+                    /* button */
+.btn{ 
+    margin-top: 50px;
+
+    
+    display: flex;
+    
+    justify-content: space-between;
+   
+    align-items: center;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btnpri  {
+    border: none; 
+    border-radius: 42px; 
+    padding: 10px 30px; 
+    font-size: 1rem; 
+    font-weight: 550; 
+    background: rgb(230, 83, 60); 
+   
+}
+
+.btnsec{
+    background: transparent; 
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 42px; 
+    padding: 10px 30px; 
+    font-size: 1rem; 
+    font-weight: 550;
+    
+   
+}
+
+
+
+
+
+
+.leftcontent{
+    
+    height: 0 auto;
+}
+
+
+
+                /* coverimg and card */
+
+.rightcontent img{
+    width: 100%;
+    position: relative;
+}
+.blurcard1{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -130px;
+    
+}
+.blurcard2{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 220px;
+}
+#ring{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+
+
