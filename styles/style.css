@@ -15,15 +15,15 @@ body{
     width: 100%;
     margin: 0 auto;
     
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(15, 15, 15, 0.5) 100%),
+}
+
+.bdy{ background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(15, 15, 15, 0.5) 100%),
     linear-gradient(0deg, 
     rgb(17, 17, 17) 0%, 
     rgba(15, 15, 15, 0) 100%);
 
     background-repeat: no-repeat;
     height: 100%;
-
-    
 }
 
 
@@ -38,17 +38,21 @@ body{
     justify-content: space-between;
     width:  85%;
     margin: 0 auto;
-    margin-top: 30px;
+    
     
     
 }
-
-.nav-parent h1{
+.nav-parent h1,.nav-parent
+ul{
+    margin-top: 30px;
+}
+.nav-parent h1,.ftag{
     color: rgb(230, 83, 60);
     font-style: italic;
     font-size: 2rem;
     
 }
+
 
 .nav-parent ul{
     display: flex;
@@ -125,9 +129,8 @@ header p { color: rgba(255, 255, 255, 0.5);
 
 
 
-
                     /* button */
-.btn{ 
+.btn{
     margin-top: 50px;
 
     
@@ -151,7 +154,8 @@ header p { color: rgba(255, 255, 255, 0.5);
     font-size: 1rem; 
     font-weight: 550; 
     background: rgb(230, 83, 60); 
-   
+    color: white;
+
 }
 
 .btnsec{
@@ -221,5 +225,360 @@ header p { color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
 
+
+
+
+
+
+
+
+
+
+main{
+    background-color: black;
+    height: 2480px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+main section{
+    color: white;
+}
+.habitcon{
+    text-align: center;
+    padding: 45px;
+
+}
+.habitcon p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habitimg{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px
+    ;
+}
+.habitimg h2{
+    font-size: 1.5rem;
+}
+
+
+.habitsection{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.habitimg img{
+    border-radius: 50%;
+}
+
+.habitimg div{
+    text-align: center;
+    
+}
+
+
+.run {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85%;
+    margin: 0 auto;
+    
+    padding: 20px 30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 80px;
+    
+
+}
+
+.runtitle{
+    font-size: 1.5rem;
+}
+.runimg img{
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 450px;
+    
+}
+
+
+#bmiSection {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bmiHeader {
+    margin: 50px;
+    text-align: center;
+}
+
+.bmiHeader h1 {
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bmiHeader p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.95rem;
+    margin: 20px;
+}
+
+.bmiContent {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+
+    gap: 10%;
+}
+
+.bmiChart {
+    margin-top: 30px;
+}
+
+table {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 600px;
+}
+
+.chartHeader {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.bmiSection,
+table {
+    font-size: 1.6rem;
+    margin: 50px;
+}
+
+td,
+tr {
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+thead,
+th {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.bmiCalculator {
+    width: 40%;
+    margin-top: 30px;
+}
+
+.calculatorHeader {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.calculatorDescription {
+    color: white;
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+
+
+.inputField {
+    font-size: 1rem;
+    padding: 15px 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0;
+    width: 40%;
+}
+
+.dropdownField {
+    font-size: 1rem;
+    color: white;
+    padding: 15px 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin: 5px 0;
+    width: 40%;
+}
+
+.activityDropdown {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin: 5px 0;
+    width: 81%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.card1{
+    position: relative;
+}
+
+.cardtext{
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    font-size: 0.50rem;
+}
+
+.meethead > div:first-child{
+    margin-top: 30px;
+}
+
+
+
+.meet{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    border-radius: 18px;
+    width: 85%;
+    margin: 0 auto;
+    
+    background: rgb(34, 34, 34);
+}
+
+.meet img{
+    padding: 20px;
+    width: 50%;
+    height: 95%;
+    border-radius: 30px;
+    margin-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#headline{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#subline{
+    text-align: center;
+        font-size: 0.90rem;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 30px;
+    
+}
+
+#trn,span,.footerp > div:first-child> p{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+
+
+
+
+
+footer{ 
+background-color:rgba(28, 27, 27, 0.96);
+    
+    
+}
+
+
+
+.footerp{
+    
+    
+    width: 85%;
+    margin: 0 auto;
+    color: rgb(255, 254, 254);
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 190px;
+padding: 40px;
+
+
+
+    
+}
+
+.footerp > div:first-child{
+    
+    width: 40%;
+    margin-bottom: 20px;
+    height: 140px;
+    
+}
+
+.footerp > div:first-child> p  {
+    margin-top: 20px;
+   
+    
+}
+
+.fcomment{
+    width: 40%;
+    margin: 0 auto;
+    align-items: last baseline;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
