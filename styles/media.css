@@ -56,6 +56,143 @@
     }
 
 
+    .habitimg{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .runtitle{
+        text-align: center;
+        align-items: center;
+        
+
+        
+    }
+
+
+
+
+    .run {
+
+        flex-direction: column;
+        align-items: center;
+
+    
+        width: 85%;
+        margin: 0 auto;
+        
+        padding: 20px 30px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        margin-top: 80px;
+        
+    
+    }
+
+    .runimg img{
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+        
+    }
+
+
+    .bmiContent {
+    background: rgb(34, 34, 34);
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10%;
+
+}
+
+#bmiSection{
+   
+    margin-bottom: 50px;
+    
+}
+
+main{
+
+   
+
+    margin: 0 auto;
+    
+
+}
+
+
+table{
+    width: 80%;
+
+    ''
+}
+
+.bmiChart{
+    text-align: center;
+}
+
+
+.bmiCalculator{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+.footercontainer{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+
+
+.fhead{
+    width: 100%;
+}
+
+
+
+.fhead p{
+    font-size: 1.5rem;
+}
+
+
+
+
+.meet{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    border-radius: 18px;
+    gap: 10px; 
+  
+    background: rgb(34, 34, 34);
+    padding: 10px;
+    
+}
+
+
+.meet img{
+    
+    width: 80%;
+    height: 100%;
+    
+}
+
+
+.meethead{
+    }
+
+
 
 
 
